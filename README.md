@@ -77,19 +77,19 @@ RestClient.builder()
                 .success(new ISuccess() {
                     @Override
                     public void onSuccess(String response) {
-												//请求成功回调
+			//请求成功回调
                     }
                 })
                 .failure(new IFailure() {
                     @Override
                     public void onFailure() {
-												//请求失败回调
+			//请求失败回调
                     }
                 })
                 .error(new IError() {
                     @Override
                     public void onError(int code, String msg) {
-												//请求错误回调
+			//请求错误回调
                     }
                 })
                 .build()
